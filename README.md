@@ -25,11 +25,11 @@ git clone https://github.com/farizi-maker/demo.git
 9. Please open data_wrangling.ipynb inside the solution directory to start exploring the data
 10. Next, let's start using airflow, please use command below to start the installation of our orchestrator
 ```
-pip install apache-airflow
+pip install "apache-airflow[celery]==2.1.4" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.1.4/constraints-3.8.txt"
 ```
-11. Please install the google provider ( use version 2.2.0 for faster pip wheel )
+11. Please install the google provider
  ```
- pip install apache-airflow-providers-google==2.2.0
+ pip install apache-airflow-providers-google==6.1.0
  ```
 12. After the pip package has been installed, move to the demo directory, and please put the command below in the terminal so that airflow will recognize the home directory
 ```
