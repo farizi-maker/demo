@@ -1,5 +1,6 @@
 ## Airflow + data wrangling demo
 
+![F0](Images/demo.jpg)
 
 ## How to use this repo
 
